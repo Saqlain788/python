@@ -160,27 +160,6 @@ for x in fruits:
   print(x)
 
 ## For Loop iteration on first 5 elements is possible by slicing methods
-
 for name in names[:2]:
 print(name) 
 
-# Number with Loop
-
-* Range (start,end,step)
-* range and enumerate are generative function having benefit of being used in memory.
-* range is performed with iteration i.e.
-
-# List Comprehensive 
-```
-    for item in items_list:
-    loop_body
-```
-* Comprehensive Style
-```
-[loop_body for item in items_list]
-
-loop body used before forloop
-and colon (:) will be omitted
-    
-```
-# Jupyter Notebook return last line whereas PY file always use print function.
